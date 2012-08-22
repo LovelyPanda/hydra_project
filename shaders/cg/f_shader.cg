@@ -1,0 +1,29 @@
+void main(float4 position : TEXCOORD0,
+          float3 the_normal : TEXCOORD1,
+          uniform float3 lightPosition,
+          uniform float3 eyePosition,
+          uniform float3 lightColor,
+          uniform float3 globalAmbient,
+          uniform float3 Ke,
+          uniform float3 Ka,
+          uniform float3 Kd,
+          uniform float3 Ks,
+          uniform float  shininess,
+          
+          out float4 outColor : COLOR){
+
+    float3 normal = normalize(the_normal);
+    float3 ambientPart = globalAmbient * Ka;
+    
+    float3 toLight = normalize(lightPosition - position.xyz);
+    float3 diffusePart = max(dot(normal, toLight), 0) * Kd * lightColor;
+
+    float3 toEye = normalize(eyePosition - position.xyz);
+    float3 middle = normalize(toEye + toLight);
+    float3 specularPart = pow(max(dot(middle, normal), 0), shininess) * lightColor * Ks;
+
+    float3 emissivePart = Ke;
+
+    outColor.xyz = ambientPart + diffusePart + specularPart + emissivePart;
+    outColor.w = 1;
+}

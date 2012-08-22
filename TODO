@@ -1,0 +1,16 @@
+Global TODO list:
+
+ - refactor Manager/Loader/Cache logic
+ - finish terrain subsystem:
+    * debug TerrainLODManager's logic and implementations. Fix desync and leaks.
+    * texture lods, lightmaps, normal maps
+    * add morphing using vertex shaders
+ - add native Windows window and input creation routines
+ - fix error handling and make it more solid
+ - clean, check, test and debug all code
+ - refactor some parts
+ - add new functionality (see local TODO's)
+ - add new features:
+    * texture coordinates generating
+    * sorting and searching
+ - add new load formats

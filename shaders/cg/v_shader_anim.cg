@@ -1,0 +1,66 @@
+struct Skeleton{
+    float4 Orients[100];
+    float3 Positions[100];
+};
+
+//
+// Quaternion multiplication
+//
+
+float4 quatMul(in float4 q1, in float4 q2){
+    float3  im = q1.w * q2.xyz + q1.xyz * q2.w + cross ( q1.xyz, q2.xyz );
+    float re = dot ( q1 * q2, float4 ( -1.0, -1.0, -1.0, 1.0 ) );
+    return vec4 ( im, re );
+}
+
+//
+// vector rotation via unit quaternion
+//
+
+float4 quatRotate (in float3 p, in float4 q){
+    float4 temp = quatMul ( q, float4 ( p, 0.0 ) );
+	
+    return quatMul ( temp, float4 ( -q.x, -q.y, -q.z, q.w ) );
+}
+
+void main(float4 position : POSITION,
+          float3 normal : NORMAL,
+          float4 texCoord : TEXCOORD0,
+          float4 weights : TEXCOORD1,
+          float4 indices : TEXCOORD2,
+          float4 weights2 : TEXCOORD3,
+          float4 indices2 : TEXCOORD4,
+
+          uniform float4x4 modelViewProj,
+          uniform Skeleton skeleton,
+         
+          out float4 outObjectPos : TEXCOORD0,
+          out float3 outNormal : TEXCOORD1,
+          out float4 outPos : POSITION){
+
+    float3 changedPos = float3(0.0f, 0.0f, 0.0f);
+    float3 changedNormal = float3(0.0f, 0.0f, 0.0f);
+
+    for (int i = 0; i < 4; i++) {
+        float index = indices[i];
+        float4 boneQuat = skeleton.Orients[index];
+        float3 bonePos = skeleton.Positions[index];
+
+        changedPos += ((quatRotate(position.xyz, boneQuat).xyz + bonePos) * weights[i]);
+        changedNormal += (quatRotate(normal, boneQuat)).xyz * weights[i];
+    }
+
+    for (int i = 0; i < 4; i++) {
+        float index = indices2[i];
+        float4 boneQuat = skeleton.Orients[index];
+        float3 bonePos = skeleton.Positions[index];
+
+        changedPos += ((quatRotate(position.xyz, boneQuat).xyz + bonePos) * weights2[i]);
+        changedNormal += (quatRotate(normal, boneQuat)).xyz * weights2[i];
+    }
+
+
+    outNormal = changedNormal;
+    outObjectPos = float4(changedPos, 1.0f);
+    outPos = mul(modelViewProj, float4(changedPos, 1.0f));
+}
