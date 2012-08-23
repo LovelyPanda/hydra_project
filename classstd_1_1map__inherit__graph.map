@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classstd_1_1map.html" title="{std::map\&lt; Id, TPtr \&gt;\n||}" alt="" coords="5,147,157,224"/>
+<area shape="rect" id="node5" href="$classstd_1_1map.html" title="{std::map\&lt; std::string, hydra::data::ImagePtr \&gt;\n||}" alt="" coords="181,147,500,224"/>
+<area shape="rect" id="node7" href="$classstd_1_1map.html" title="{std::map\&lt; std::string, BasePtr \&gt;\n||}" alt="" coords="526,147,756,224"/>
+<area shape="rect" id="node9" href="$classstd_1_1map.html" title="{std::map\&lt; hydra::data::TerrainFragmentId, hydra::data::TerrainFragment \&gt;\n||}" alt="" coords="781,147,1276,224"/>
+</map>

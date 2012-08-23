@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$classhydra_1_1loading_1_1Manager.html" title="Abstract manager for loading different stuff." alt="" coords="5,56,181,83"/>
+<area shape="rect" id="node3" href="$classhydra_1_1loading_1_1DummyManager.html" title="DummyManager is dummy implementation of Manager&#39;s interface. Does nothing except logging load request..." alt="" coords="229,5,456,32"/>
+<area shape="rect" id="node5" href="$classhydra_1_1loading_1_1FileManager.html" title="Implementation of load manager for managing loadings from files." alt="" coords="245,56,441,83"/>
+<area shape="rect" id="node7" href="$classhydra_1_1loading_1_1ZipFileManager.html" title="Class is a Manager implementation to create streams from Zip&#45;archive." alt="" coords="234,107,451,133"/>
+</map>

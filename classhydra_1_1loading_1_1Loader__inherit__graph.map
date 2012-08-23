@@ -1,0 +1,13 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classhydra_1_1loading_1_1Loader.html" title="{hydra::loading::Loader\&lt; hydra::data::Model \&gt;\n||+ ~Loader()\l+ load()\l# init()\l# isInited()\l# doLoad()\l}" alt="" coords="197,205,509,341"/>
+<area shape="rect" id="node9" href="$classhydra_1_1loading_1_1Loader.html" title="{hydra::loading::Loader\&lt; T \&gt;\n||+ ~Loader()\l+ load()\l# init()\l# isInited()\l# doLoad()\l}" alt="" coords="534,205,735,341"/>
+<area shape="rect" id="node13" href="$classhydra_1_1loading_1_1Loader.html" title="{hydra::loading::Loader\&lt; hydra::data::Animation \&gt;\n||+ ~Loader()\l+ load()\l# init()\l# isInited()\l# doLoad()\l}" alt="" coords="759,205,1099,341"/>
+<area shape="rect" id="node17" href="$classhydra_1_1loading_1_1Loader.html" title="{hydra::loading::Loader\&lt; hydra::data::Image \&gt;\n||+ ~Loader()\l+ load()\l# init()\l# isInited()\l# doLoad()\l}" alt="" coords="1124,205,1439,341"/>
+<area shape="rect" id="node21" href="$classhydra_1_1loading_1_1Loader.html" title="{hydra::loading::Loader\&lt; hydra::data::SoundTrack \&gt;\n||+ ~Loader()\l+ load()\l# init()\l# isInited()\l# doLoad()\l}" alt="" coords="1463,205,1811,341"/>
+<area shape="rect" id="node5" href="$classhydra_1_1loading_1_1MD5ModelLoader.html" title="Model loader from Doom III&#39;s MD5 model files (.md5mesh)" alt="" coords="5,392,235,528"/>
+<area shape="rect" id="node7" href="$classhydra_1_1loading_1_1OBJModelLoader.html" title="Model loader from OBJ (+MTL) sources." alt="" coords="260,392,483,528"/>
+<area shape="rect" id="node11" href="$classhydra_1_1loading_1_1DummyLoader.html" title="Loader&#39;s interface implemetation. Does nothing." alt="" coords="527,392,741,528"/>
+<area shape="rect" id="node15" href="$classhydra_1_1loading_1_1MD5AnimationLoader.html" title="class for loading Animation from md5anim data sources" alt="" coords="800,392,1057,528"/>
+<area shape="rect" id="node19" href="$classhydra_1_1loading_1_1ILImageLoader.html" title="Image loader implementation using DevIL." alt="" coords="1174,392,1388,528"/>
+<area shape="rect" id="node23" href="$classhydra_1_1loading_1_1OGGSoundTrackLoader.html" title="Sound track loader implementation using libvorbis." alt="" coords="1504,392,1771,528"/>
+</map>

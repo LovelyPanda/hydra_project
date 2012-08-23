@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classstd_1_1vector.html" title="{std::vector\&lt; Node \&gt;\n||}" alt="" coords="5,147,159,224"/>
+<area shape="rect" id="node5" href="$classstd_1_1vector.html" title="{std::vector\&lt; BoneIndices \&gt;\n||}" alt="" coords="184,147,381,224"/>
+<area shape="rect" id="node7" href="$classstd_1_1vector.html" title="{std::vector\&lt; std::string \&gt;\n||}" alt="" coords="405,147,589,224"/>
+<area shape="rect" id="node9" href="$classstd_1_1vector.html" title="{std::vector\&lt; hydra::data::MeshPtr \&gt;\n||}" alt="" coords="613,147,867,224"/>
+<area shape="rect" id="node11" href="$classstd_1_1vector.html" title="{std::vector\&lt; hydra::data::Skeleton \&gt;\n||}" alt="" coords="891,147,1148,224"/>
+<area shape="rect" id="node13" href="$classstd_1_1vector.html" title="{std::vector\&lt; hydra::data::Bone \&gt;\n||}" alt="" coords="1173,147,1407,224"/>
+<area shape="rect" id="node15" href="$classstd_1_1vector.html" title="{std::vector\&lt; data::Vertex \&gt;\n||}" alt="" coords="1431,147,1629,224"/>
+<area shape="rect" id="node17" href="$classstd_1_1vector.html" title="{std::vector\&lt; index_t \&gt;\n||}" alt="" coords="1654,147,1820,224"/>
+<area shape="rect" id="node19" href="$classstd_1_1vector.html" title="{std::vector\&lt; VertexCont \&gt;\n||}" alt="" coords="1845,147,2035,224"/>
+<area shape="rect" id="node21" href="$classstd_1_1vector.html" title="{std::vector\&lt; BoneWeights \&gt;\n||}" alt="" coords="2060,147,2263,224"/>
+<area shape="rect" id="node23" href="$classstd_1_1vector.html" title="{std::vector\&lt; Status \&gt;\n||}" alt="" coords="2287,147,2449,224"/>
+<area shape="rect" id="node25" href="$classstd_1_1vector.html" title="{std::vector\&lt; hydra::data::AnimationPtr \&gt;\n||}" alt="" coords="2474,147,2757,224"/>
+</map>

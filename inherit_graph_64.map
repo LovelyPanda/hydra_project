@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$classhydra_1_1system_1_1Window.html" title="Class for respresenting a window." alt="" coords="5,31,173,57"/>
+<area shape="rect" id="node3" href="$classhydra_1_1system_1_1SDLWindow.html" title="SDL implementation of Window." alt="" coords="229,5,422,32"/>
+<area shape="rect" id="node5" href="$classhydra_1_1system_1_1Win32Window.html" title="Window implementation using Win32 (Windows&#45;only)" alt="" coords="222,56,429,83"/>
+</map>

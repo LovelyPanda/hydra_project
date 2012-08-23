@@ -1,0 +1,32 @@
+<map id="G" name="G">
+<area shape="rect" id="node9" href="$classstd_1_1basic__istream.html" title="{std::basic_istream\&lt; Char \&gt;\n||}" alt="" coords="626,544,824,621"/>
+<area shape="rect" id="node55" href="$classstd_1_1basic__istream.html" title="{std::basic_istream\&lt; wchar_t \&gt;\n||}" alt="" coords="856,544,1075,621"/>
+<area shape="rect" id="node59" href="$classstd_1_1basic__istream.html" title="{std::basic_istream\&lt; char \&gt;\n||}" alt="" coords="1099,544,1296,621"/>
+<area shape="rect" id="node2" href="$classstd_1_1basic__ios.html" title="{std::basic_ios\&lt; Char \&gt;\n||}" alt="" coords="881,275,1049,352"/>
+<area shape="rect" id="node4" href="$classstd_1_1basic__ios.html" title="STL class." alt="" coords="911,133,1019,211"/>
+<area shape="rect" id="node6" href="$classstd_1_1ios__base.html" title="STL class." alt="" coords="912,5,1019,83"/>
+<area shape="rect" id="node11" href="$classstd_1_1basic__ifstream.html" title="STL class." alt="" coords="281,672,423,749"/>
+<area shape="rect" id="node21" href="$classstd_1_1basic__iostream.html" title="STL class." alt="" coords="575,672,721,749"/>
+<area shape="rect" id="node45" href="$classstd_1_1basic__istringstream.html" title="STL class." alt="" coords="781,672,955,749"/>
+<area shape="rect" id="node13" href="$classstd_1_1basic__ifstream.html" title="{std::basic_ifstream\&lt; wchar_t \&gt;\n||}" alt="" coords="5,813,227,891"/>
+<area shape="rect" id="node17" href="$classstd_1_1basic__ifstream.html" title="{std::basic_ifstream\&lt; char \&gt;\n||}" alt="" coords="251,813,452,891"/>
+<area shape="rect" id="node15" href="$classstd_1_1wifstream.html" title="STL class." alt="" coords="60,941,171,1019"/>
+<area shape="rect" id="node19" href="$classstd_1_1ifstream.html" title="STL class." alt="" coords="277,941,379,1019"/>
+<area shape="rect" id="node23" href="$classstd_1_1basic__iostream.html" title="{std::basic_iostream\&lt; Char \&gt;\n||}" alt="" coords="523,813,729,891"/>
+<area shape="rect" id="node25" href="$classstd_1_1basic__fstream.html" title="STL class." alt="" coords="403,941,543,1019"/>
+<area shape="rect" id="node35" href="$classstd_1_1basic__stringstream.html" title="STL class." alt="" coords="615,941,787,1019"/>
+<area shape="rect" id="node27" href="$classstd_1_1basic__fstream.html" title="{std::basic_fstream\&lt; wchar_t \&gt;\n||}" alt="" coords="127,1083,345,1160"/>
+<area shape="rect" id="node31" href="$classstd_1_1basic__fstream.html" title="{std::basic_fstream\&lt; char \&gt;\n||}" alt="" coords="370,1083,568,1160"/>
+<area shape="rect" id="node29" href="$classstd_1_1wfstream.html" title="STL class." alt="" coords="181,1211,291,1288"/>
+<area shape="rect" id="node33" href="$classstd_1_1fstream.html" title="STL class." alt="" coords="419,1211,519,1288"/>
+<area shape="rect" id="node37" href="$classstd_1_1basic__stringstream.html" title="{std::basic_stringstream\&lt; wchar_t \&gt;\n||}" alt="" coords="593,1083,844,1160"/>
+<area shape="rect" id="node41" href="$classstd_1_1basic__stringstream.html" title="{std::basic_stringstream\&lt; char \&gt;\n||}" alt="" coords="869,1083,1099,1160"/>
+<area shape="rect" id="node39" href="$classstd_1_1wstringstream.html" title="STL class." alt="" coords="648,1211,788,1288"/>
+<area shape="rect" id="node43" href="$classstd_1_1stringstream.html" title="STL class." alt="" coords="918,1211,1049,1288"/>
+<area shape="rect" id="node47" href="$classstd_1_1basic__istringstream.html" title="{std::basic_istringstream\&lt; wchar_t \&gt;\n||}" alt="" coords="754,813,1008,891"/>
+<area shape="rect" id="node51" href="$classstd_1_1basic__istringstream.html" title="{std::basic_istringstream\&lt; char \&gt;\n||}" alt="" coords="1033,813,1265,891"/>
+<area shape="rect" id="node49" href="$classstd_1_1wistringstream.html" title="STL class." alt="" coords="812,941,956,1019"/>
+<area shape="rect" id="node53" href="$classstd_1_1istringstream.html" title="STL class." alt="" coords="1082,941,1216,1019"/>
+<area shape="rect" id="node57" href="$classstd_1_1wistream.html" title="STL class." alt="" coords="979,672,1087,749"/>
+<area shape="rect" id="node61" href="$classstd_1_1istream.html" title="STL class." alt="" coords="1148,672,1247,749"/>
+</map>

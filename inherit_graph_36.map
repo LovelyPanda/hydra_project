@@ -1,0 +1,4 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$classhydra_1_1loading_1_1Loader.html" title="hydra::loading::Loader\&lt; hydra::data::SoundTrack \&gt;" alt="" coords="6,5,354,32"/>
+<area shape="rect" id="node3" href="$classhydra_1_1loading_1_1OGGSoundTrackLoader.html" title="Sound track loader implementation using libvorbis." alt="" coords="403,5,669,32"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$classstd_1_1basic__istream.html" title="std::basic_istream\&lt; Char \&gt;" alt="" coords="9,56,207,83"/>
+<area shape="rect" id="node3" href="$classstd_1_1basic__ifstream.html" title="STL class." alt="" coords="278,5,421,32"/>
+<area shape="rect" id="node5" href="$classstd_1_1basic__iostream.html" title="STL class." alt="" coords="276,107,423,133"/>
+<area shape="rect" id="node7" href="$classstd_1_1basic__istringstream.html" title="STL class." alt="" coords="262,56,437,83"/>
+<area shape="rect" id="node8" href="$classstd_1_1basic__ostream.html" title="std::basic_ostream\&lt; Char \&gt;" alt="" coords="6,157,210,184"/>
+<area shape="rect" id="node11" href="$classstd_1_1basic__ofstream.html" title="STL class." alt="" coords="275,157,423,184"/>
+<area shape="rect" id="node13" href="$classstd_1_1basic__ostringstream.html" title="STL class." alt="" coords="259,208,439,235"/>
+</map>

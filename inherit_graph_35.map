@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$classhydra_1_1loading_1_1Loader.html" title="hydra::loading::Loader\&lt; hydra::data::Model \&gt;" alt="" coords="6,31,319,57"/>
+<area shape="rect" id="node3" href="$classhydra_1_1loading_1_1MD5ModelLoader.html" title="Model loader from Doom III&#39;s MD5 model files (.md5mesh)" alt="" coords="369,5,599,32"/>
+<area shape="rect" id="node5" href="$classhydra_1_1loading_1_1OBJModelLoader.html" title="Model loader from OBJ (+MTL) sources." alt="" coords="372,56,596,83"/>
+</map>

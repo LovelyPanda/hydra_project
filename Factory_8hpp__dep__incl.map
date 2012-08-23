@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Manager_8hpp.html" title="include/loading/Manager.hpp" alt="" coords="294,80,497,107"/>
+<area shape="rect" id="node5" href="$DummyManager_8hpp.html" title="include/loading/DummyManager.hpp" alt="" coords="5,155,259,181"/>
+<area shape="rect" id="node7" href="$FileManager_8hpp.html" title="include/loading/FileManager.hpp" alt="" coords="284,155,507,181"/>
+<area shape="rect" id="node11" href="$ZipFileManager_8hpp.html" title="include/loading/ZipFileManager.hpp" alt="" coords="532,155,777,181"/>
+<area shape="rect" id="node9" href="$LoadingMain_8hpp.html" title="Interface for Loading Library users." alt="" coords="411,229,640,256"/>
+</map>
